@@ -1,0 +1,23 @@
+.jumbotron{
+    background-color: #f4511e;
+    color: white;
+}
+.logo-lg{
+    color: #f4511e;
+    font-size: 150px;
+}
+.logo-container{
+    text-align: center;
+}
+.seccao{
+    padding: 20px 50px;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+carousel-inner{
+    margin: 70px 0;
+    font-size: 19px;
+}
