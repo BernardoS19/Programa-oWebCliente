@@ -21,3 +21,17 @@ carousel-inner{
     margin: 70px 0;
     font-size: 19px;
 }
+
+carousel-indicators{
+    margin-top: 20px;
+}
+
+icon-to-top{
+    color: #f4511e ;
+
+}
+.navbar{
+    background-color: #f4511e;
+    font-size: 16px !important;
+    line-height: 1.4285;
+}
