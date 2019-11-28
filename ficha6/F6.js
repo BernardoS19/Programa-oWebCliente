@@ -21,15 +21,25 @@ $.ajax({
     if(msg.Response === "True") {
        var results = msg.Search; // Array de resultados
        if (results.length >= 1){
-           var result = results[0]; // Primeiro resultado
+           var i = 0;
+           var result = results[i]; // Primeiro resultado
 
            var titulo = result.Title;
+           var ano = result.Year;
+           var tipo = result.Type;
+           var poster = result.Poster;
+
            console.log("Title: " + titulo);
+           console.log("Year: " + ano);
+           console.log("Tipo: " + tipo);
+           console.log("Poster: " + poster);
+
+
        }else{
            console.log("Error: no response.");
-       }
+       };
     }else{
         console.log("Error: no response.");
-    }
+    };
 
 });
